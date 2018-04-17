@@ -35,13 +35,15 @@ http://localhost:3000/getUser/name/[requested_user_name]/[auth_user_id]
 ###### Get the list of policies linked to a user name -> Can be accessed by users with role "admin"
 
 ```sh
-http://localhost:3000/getUser/policy/[policy_id]/[auth_user_id]
+http://localhost:3000/getPolicy/[requested_user_name]/[auth_user_id]
 ```
+
 ###### Get the user linked to a policy number -> Can be accessed by users with role "admin"
 
 ```sh
-http://localhost:3000/getPolicy/[requested_user_name]/[auth_user_id]
+http://localhost:3000/getUser/policy/[policy_id]/[auth_user_id]
 ```
+
 
 ### Auth
 
